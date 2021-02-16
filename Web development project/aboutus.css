@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+body{
+    background: url('weeattogether.com-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.contact-box{
+
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.heading{
+    align-items: center; 
+    position: relative;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+    /* top: 50%; */
+    left: 30%;
+    /* right: 59%;*/
+    animation: animate 1s ease-in-out infinite;
+    color: #47c35a;
+}
+@keyframes animate{
+    from{
+        text-shadow: 0 0 20px #47c35a;
+    }
+    to{
+        text-shadow: 0 0 30px #47c35a,0 0 10px #47c35a;
+    }
+}
+.services{
+    margin-left: 17px;
+}
